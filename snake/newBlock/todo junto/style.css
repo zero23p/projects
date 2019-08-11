@@ -1,0 +1,27 @@
+html, body {
+  height:          100%;
+  margin:          0;
+  padding:         0;
+  background:      #121212;
+  text-align:      center;
+  color:           #fff;
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+}
+
+.scoreBoard{
+  position: absolute;
+  font-size: 30px;
+  border: solid white 2px;
+  color: #B22222;
+  background-color: #00FFFF;
+  border-radius: 8px;
+  left: 10%;
+  top: 40%;
+  padding: 20px;
+}
+
+p {
+  margin: 2px;
+}

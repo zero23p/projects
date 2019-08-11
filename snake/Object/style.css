@@ -1,0 +1,33 @@
+html, body {
+  height:          100%;
+  margin:          0;
+  padding:         0;
+  background:      #121212;
+  text-align:      center;
+  color:           #ff1;
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+}
+
+.scoreBoard{
+  position: absolute;
+  font-size: 30px;
+  border: solid white 2px;
+  color: #B22222;
+  background-color: #00FFFF;
+  border-radius: 8px;
+  left: 10%;
+  top: 40%;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+p {
+  margin: 5px;
+}
+
+.green-glow{
+  border: 4px solid #4dcc7c;
+  box-shadow: 0 0 10px #31b43a;
+}

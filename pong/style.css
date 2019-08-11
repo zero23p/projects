@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.canvasCss{
+  position: absolute;
+  left: 25%;
+  top: 22%;
+}
+
+body{
+  background-color: blue;
+  text-align: center;
+}
+
+.scoreBoard{
+  color: white;
+  padding: 50px 100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  position: absolute;
+  left: 40%;
+  border: solid 3px red;
+}
+
+.scoreA{
+  border-radius: 5px;
+  position: absolute;
+  color: #29BA95;
+  top: 45px;
+  left: -50px;
+  border: solid 2px white;
+  transition: all 0.3s ease;
+}
+
+.scoreB{
+  border-radius: 5px;
+  position: absolute;
+  color: #29BA95;
+  top: 45px;
+  right: -50px;
+  border: solid 2px white;
+  transition: all 0.3s ease;
+}
+
+.green-back{
+  background-color: #4dcc7c;
+}

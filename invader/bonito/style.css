@@ -1,0 +1,29 @@
+body{
+  background-color: blue;
+}
+
+.canvasCss{
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+
+.score{
+  font-size: 22px;
+  position: absolute;
+  left: 35%;
+  top: 25px;
+  border: red solid 3px;
+  border-radius: 5px;
+  background-color: #00FFFF;
+}
+
+.bestScore{
+  left: 55%;
+  top: 25px;
+  font-size: 22px;
+  position: absolute;
+  border: red solid 3px;
+  border-radius: 5px;
+  background-color: #00FFFF;
+}
